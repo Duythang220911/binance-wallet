@@ -512,7 +512,7 @@ body { background-color: #fff; color: var(--text-black);
 
 .floating-ai {
     position: fixed;
-    bottom: 90px;
+    bottom: 160px;
     right: 16px;
     width: 48px;
     height: 48px;
@@ -529,7 +529,7 @@ body { background-color: #fff; color: var(--text-black);
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 12px;
+    bottom: 55px;
 
     height: 82px;
     background: #fff;
