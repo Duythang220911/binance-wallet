@@ -763,8 +763,8 @@ body { background-color: #fff; color: var(--text-black);
 width: 60px;
     height: 33px;
     object-fit: contain;
-    margin-left: -5px;
-    margin-top: 15px;
+    margin-left: -9px;
+    margin-top: 13px;
 }
 
 /* ===== Arrow PNL ===== */
