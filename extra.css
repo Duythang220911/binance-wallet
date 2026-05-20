@@ -586,7 +586,7 @@ color: var(--text-gray)}
 .bottom-sub-tabs {
     position: fixed;
     left: 50%;
-    bottom: 104px;
+    bottom: 88px;
     transform: translateX(-50%);
 
     width: 100%;
