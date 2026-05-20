@@ -1063,7 +1063,7 @@ color: var(--text-gray)}
    position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 12px;
+    bottom: 6px;
     width: 114%;
     max-width: 430px;
     height: 82px;
