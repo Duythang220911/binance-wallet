@@ -269,7 +269,7 @@ body { background-color: #fff; color: var(--text-black);
 
 .pnl-label {
     color: #111;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     border-bottom: 1px dotted #b8b8b8;
     padding-bottom: 4px;
@@ -282,7 +282,7 @@ body { background-color: #fff; color: var(--text-black);
     letter-spacing: -0.2px;
     margin-top: -1px;
     position: absolute;
-    margin-left: 135px;
+    margin-left: 124px;
 }
 
 .pnl-row > .icon-xs {
@@ -790,7 +790,7 @@ body { background-color: #fff; color: var(--text-black);
 }
 /* ===== Arrow VND ===== */
 .currency-arrow {
- width: 78px;
+    width: 78px;
     height: 85px;
     object-fit: contain;
     margin-left: -19px;
@@ -845,4 +845,42 @@ a.sheet-menu-item:active {
 }
 a.sheet-menu-item:active {
     background: rgba(0,0,0,0.04);
+}
+
+/* hàng pnl */
+.pnl-row{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+/* text riêng */
+.pnl-content{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* img container riêng */
+.pnl-arrow-box{
+    position: absolute;
+
+    right: 0; /* đẩy sát phải */
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+/* chỉnh img độc lập */
+.pnl-arrow{
+  width: 65px;
+    height: 60px;
+    /* margin-left: 19px; */
+    left: -98px;
+    position: relative;
+    object-fit: contain;
+    display: block;
 }
