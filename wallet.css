@@ -790,10 +790,10 @@ body { background-color: #fff; color: var(--text-black);
 }
 /* ===== Arrow VND ===== */
 .currency-arrow {
-width: 60px;
-    height: 33px;
+ width: 78px;
+    height: 85px;
     object-fit: contain;
-    margin-left: -9px;
+    margin-left: -19px;
     margin-top: 14px;
 }
 
